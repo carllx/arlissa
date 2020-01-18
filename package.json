@@ -1,0 +1,25 @@
+{
+  "name": "arlissa",
+  "version": "1.0.0",
+  "description": "通过AR Project about PROSPETTOGRAFO && La gioconda ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carllx/arlissa.git"
+  },
+  "keywords": [
+    "aframe",
+    "ar",
+    "lissa",
+    "PROSPETTOGRAFO"
+  ],
+  "author": "carllx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carllx/arlissa/issues"
+  },
+  "homepage": "https://github.com/carllx/arlissa#readme"
+}
