@@ -26,7 +26,10 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: './dist'
+        contentBase: './dist',
+        host: '0.0.0.0',//your ip address
+        port: 8080,
+        disableHostCheck: true,
     },
     plugins: [
         // new CleanWebpackPlugin(),

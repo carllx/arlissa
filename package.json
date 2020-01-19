@@ -6,7 +6,7 @@
   "scripts": {
     "build_dev": "webpack   --config ./webpack.development.config.js ",
     "build_pro": "webpack   --config ./webpack.production.config.js ",
-    "dev": "webpack-dev-server --open --config ./webpack.development.config.js",
+    "dev": "webpack-dev-server --https --open --config ./webpack.development.config.js",
     "pushdev": "chrome‘ && git commit -m   \"$npm_package_config_commitmessage\"  && git push origin master",
     "rebuild_opr": "node ./src/static/_repackage_opere.js"
   },
