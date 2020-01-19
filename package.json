@@ -21,5 +21,21 @@
   "bugs": {
     "url": "https://github.com/carllx/arlissa/issues"
   },
-  "homepage": "https://github.com/carllx/arlissa#readme"
+  "homepage": "https://github.com/carllx/arlissa#readme",
+  "dependencies": {
+    "aframe": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-loader": "*",
+    "clean-webpack-plugin": "*",
+    "express": "*",
+    "html-webpack-plugin": "*",
+    "npm-install-webpack-plugin": "*",
+    "uglifyjs-webpack-plugin": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  }
 }
