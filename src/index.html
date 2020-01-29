@@ -19,7 +19,7 @@
 
 <body>
         
-    <a-scene id="scene" vr-mode-ui="enabled: false">
+    <a-scene id="scene" artoolkit vr-mode-ui="enabled: false">
         <a-assets preload="auto" >
             <!-- book -->
             <a-asset-item preloader="true" id="book_gltf" src="https://rawcdn.githack.com/carllx/hyuch360/f5115765d5541d5d804ebb27b0e883af2c74bc9e/src/static/book.glb"></a-asset-item>
@@ -45,26 +45,11 @@
         <!-- Opere component -->
         <a-entity id="opere" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-entity>
 
-        <!-- door componet -->
-        <a-entity id="porta" position="0 0 0" rotation="0 0 0"></a-entity>
-
-
-        <!-- <a-sphere o_door="index:1;" radius="0.4" position="4.96167 -1 -3.42365" material="color: #131313; shader: flat;"
-            look-at="[camera]" geometry="segmentsHeight: 12; segmentsWidth: 9" ">    
-        </a-sphere> -->
-
-
-        <!-- Language componet -->
-        <a-entity position="5 -2 -4.16903">
-            <a-sphere radius="0.2" position="-1 -1 0" material="color: #131313; shader: flat;" raycastable
-                look-at="[camera]" geometry="segmentsHeight: 12; segmentsWidth: 9" o_lang="text:ITALIANO">
-            </a-sphere>
-            <a-sphere radius="0.2" position="1 -1 0" material="color: #131313; shader: flat;" raycastable
-                look-at="[camera]" geometry="segmentsHeight: 12; segmentsWidth: 9" o_lang="text:ENGLISH">
-            </a-sphere>
-        </a-entity>
-
-        
+        <!-- define your scene as usual -->
+        <a-box></a-box>
+        <!-- define a camera inside the <a-marker-camera> -->
+        <a-marker-camera preset='hiro'><a-marker-camera>
+        <a-marker-camera type='pattern' url='path/to/pattern-marker.patt'></a-marker-camera>
     </a-scene>
 
 
